@@ -7,6 +7,7 @@ int main()
     cin >> t;
     while (t > 0)
     {
+        // cout<<"hi";
         t--;
     }
     return 0;
