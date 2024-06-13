@@ -13,9 +13,14 @@ int main()
     cin >> t;
     while (t > 0)
     {
+        string a,b;
+        cin>>a>>b;
+        char t = a[0];
+        char s = b[0];
+        a[0] = s;
+        b[0] = t;
+        cout<<a<<" "<<b<<endl;
         t--;
     }
     return 0;
 }
-
-// Press (ctrl + shift + B) to run on VS-code
